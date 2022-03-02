@@ -1,3 +1,5 @@
 tasks:
-  - init: go get
-    command: go test -v ./...
+  - init: |
+      go get golang.org/x/tools/cmd/godoc
+      go test -v ./...
+    command: godoc -http :8080

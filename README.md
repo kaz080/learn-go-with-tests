@@ -18,7 +18,7 @@ To test all,
 
     go test -v ./...
 
-Document,
+To see documents,
 
     godoc -http :8080
-    open http://localhost:8080/pkg
+    open http://localhost:8080/pkg/hello
